@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 768px;
 }
 
 .Brief > header {
@@ -15,4 +16,5 @@
   padding-top: 6.5px;
   font-size: 0.85rem;
   font-family: "DM Mono";
+  text-align: center;
 }
