@@ -2,17 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
   min-height: 100vh;
+  padding: 2rem;
 }
 
 .Container {
   border: 1px solid black;
   border-radius: 20px;
-  width: 480px;
+  min-width: 480px;
   height: 90vh;
 }
 
-@media (width < 640px) {
+@media (width < 768px) {
+.App {
+  flex-direction: column;
+}
+
   .Container {
     width: 100%;
     border: none;
@@ -43,8 +49,43 @@
 .Player {
   border-bottom: 1px solid black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px 0;
   font-size: 2rem;
+}
+
+.Player:hover {
+  cursor: pointer;
+}
+
+.About, .Stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.5px;
+  padding: 10px 0;
+  font-size: 0.85rem;
+  font-family: "DM Mono";
+  text-align: center;
+}
+
+.Fave > h6, .Stats > h6 {
+  font-family: DM Sans;
+  font-weight: 500;
+}
+
+.Fave p {
+  padding-top: 2.5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.Stats > table > tr > th, td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-family: "DM Mono";
+  text-align: center;
 }
