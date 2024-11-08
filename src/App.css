@@ -27,8 +27,8 @@
 }
 
 .Header > p {
-  color: gray;
-  padding-top: 5px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-top: 6.5px;
   font-size: 0.85rem;
   font-family: "DM Mono";
 }

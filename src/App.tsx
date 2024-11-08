@@ -6,7 +6,7 @@ function App() {
       <section className="Container">
       <header className="Header">
         <h1>Rim Reapers</h1>
-        <p>reaping rims near u</p>
+        <p>reaping rims on and off the court</p>
       </header>
       </section>
     </main>
