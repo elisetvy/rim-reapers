@@ -8,8 +8,15 @@
 .Container {
   border: 1px solid black;
   border-radius: 20px;
-  width: 35vw;
+  width: 480px;
   height: 90vh;
+}
+
+@media (width < 640px) {
+  .Container {
+    width: 100%;
+    border: none;
+  }
 }
 
 .Header {
@@ -31,4 +38,13 @@
   padding-top: 6.5px;
   font-size: 0.85rem;
   font-family: "DM Mono";
+}
+
+.Player {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 2rem;
 }

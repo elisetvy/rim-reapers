@@ -8,6 +8,15 @@ function App() {
         <h1>Rim Reapers</h1>
         <p>reaping rims on and off the court</p>
       </header>
+      <section className="Player">
+        Bernard
+      </section>
+      <section className="Player">
+        Bryan
+      </section>
+      <section className="Player">
+        Mike
+      </section>
       </section>
     </main>
   );
