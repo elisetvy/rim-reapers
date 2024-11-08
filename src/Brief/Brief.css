@@ -4,3 +4,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.Brief > header {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.Brief > p {
+  color: rgba(0, 0, 0, 0.4);
+  padding-top: 6.5px;
+  font-size: 0.85rem;
+  font-family: "DM Mono";
+}
